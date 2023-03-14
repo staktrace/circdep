@@ -9,8 +9,8 @@ repositories {
 }
 
 dependencies {
-    implementation("test.circdep:lib:1.0")
     implementation(project(":lib"))
+    implementation("test.circdep:lib:1.0")
 }
 
 application {
