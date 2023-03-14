@@ -9,7 +9,6 @@ repositories {
 }
 
 dependencies {
-    implementation("test.circdep:leaf:1.0")
     implementation(project(":lib"))
 }
 
